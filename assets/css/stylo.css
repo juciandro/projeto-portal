@@ -1,0 +1,211 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topo{
+    height: 30px;
+    background-color: #00be95;
+}
+.topointerior{
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    margin: auto;
+}
+.toposobre{
+    width: 50%;
+    height: 30px;
+    float: left; 
+}
+.toposobre ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.toposobre li{
+    float: left;
+    color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+.toposobre a{
+    text-decoration: none;
+    color: #fff;    
+}
+.toposobre a:hover{
+    text-decoration: underline;
+    transition: text-decoration;
+}
+
+/* .toposocial{
+    width: 50%;
+    height: 28px;
+    float: right;
+    margin-top: 2px;
+}
+.toposocial ol, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.toposocial li{
+    float: right;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.toposocial img{
+    width: 26px;
+    height: 26px;
+}
+.toposocial input{
+    float: right;
+    width: 110px;
+    height: 24px;
+    border-radius: 2px;
+    border: none;
+} */
+.toposocial{
+    width: 50%;
+    height: 28px;
+    float: right;
+    margin-top: 2px;
+}
+.toposocial a{
+    float: right;
+}
+.topobusca{
+    width: 110px;
+    height: 24px;
+    outline: 0;
+}
+.toposocial input{
+    float: right;    
+    border: none;
+    border-radius: 2px;
+}
+.toposocial img{
+    margin-right: 4px;
+}
+.topoimg{
+    background-color: #02a783;
+}
+
+.topologo{
+    height: 95px;    
+}
+.topologoint{
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+}
+.logo{
+    width: 230px;
+    height: 90px;
+    margin-top: 5px;
+    float: left;
+}
+.topologo .banner{
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+    background-color: #02ac87;
+    color: #fff;
+    text-align: center;
+}
+
+.topomenu{
+    height: 40px;
+    background-color: #02a783;
+}
+.topomenuint{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;   
+    margin: auto;
+}
+.menu ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+}
+.menu li:hover{
+    background-color: #00be95;
+    transition: background-color 1s;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+/* Efeito dropdown */
+.dropdown{
+    width: 140px;
+    margin-left: -10px;
+    background-color: #02a783;
+    position: absolute;/*flutuante*/
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-item{
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 10px;
+    
+}
+.dropdown-item:hover{
+    background-color: #00be95;
+}
+.menu li:hover .dropdown{
+    display: block;
+}
+
+.ultima-noticia{
+    height: 50px;
+}
+.ultima-noticia-int{
+    width: 100%;
+    max-width: 1040px;
+    height: 50px;
+    margin: auto;
+}
+
+.conteiner-int{
+    height: 28px;
+    background-color: #fff;
+    border: 1px solid #cacaca;
+    margin-top: 10px;
+}
+.noticia-left{
+    height: 28px;
+    line-height: 28px;
+    background-color: #02a783;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13pt;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.noticia-right{
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    font-size: 10pt;
+}
