@@ -214,12 +214,30 @@ body{
     max-width: 1040px;
     margin: auto;
 }
+/* slide show*/
 .left-side{
     width: 725px;
-    min-height: 200px;
     float: left;
-    background-color: #02a783;
 }
+.slideshow{
+    height: 335px;
+    background-color: #00be95;
+    overflow: hidden;/*faz com elementos que não sastifazem uma determinada condição fiquem oculto
+    , por padrão ele esta como (auto), outra propriedade é (scroll) que criar uma barra de rolagem*/
+}
+.slideshow-area{
+    width: 1000000px;
+    height: 335px;
+    /* background-color: #cacaca; */
+}
+.slide{
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*//slide show */
 .right-side{
     width: 275px;
     min-height: 200px;
@@ -236,7 +254,7 @@ body{
     border-bottom: 1px solid #ccc;
     background-color: #02a78342;
     font-size: 12pt;
-    padding-left: 2px;
+    padding-left: 5px;
     text-transform: uppercase;
 }
 .widget-conteudo{
