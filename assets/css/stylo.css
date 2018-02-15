@@ -216,7 +216,7 @@ body{
 }
 /* slide show*/
 .left-side{
-    width: 725px;
+    width: 753px;
     float: left;
 }
 .slideshow{
@@ -226,18 +226,38 @@ body{
     , por padrão ele esta como (auto), outra propriedade é (scroll) que criar uma barra de rolagem*/
 }
 .slideshow-area{
-    width: 1000000px;
+    width: 10000px;
     height: 335px;
-    /* background-color: #cacaca; */
+    background-color: #cacaca;
+    transition: all 1s;
 }
 .slide{
     height: 335px;
     float: left;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;/*aumenta a largura e altura proporcionalmente para que a img cubra a area de determinada*/ 
+}
+.slide-info{
+    background-image: url(../imagens/slideshow_bg.png);
+    height: 70px;
+    background-size: auto 70px;
+    margin-top: 265px;
+}
+.info-titulo{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+.info-subtitulo{
+    font-size: 12px;
+    color: #fff;
+    padding-left: 20px;
 }
 /*//slide show */
+
 .right-side{
     width: 275px;
     min-height: 200px;
@@ -252,7 +272,8 @@ body{
 }
 .widget-titulo{
     border-bottom: 1px solid #ccc;
-    background-color: #02a78342;
+    background-color: #02a783;
+    color: #fff;
     font-size: 12pt;
     padding-left: 5px;
     text-transform: uppercase;
