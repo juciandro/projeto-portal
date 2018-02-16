@@ -16,3 +16,8 @@ function proximoSlide() {
     }
     document.getElementsByClassName("slideshow-area")[0].style.marginLeft = "-" + (slidewidth * slideItem) + "px";
 }
+function passarSlide(pos){
+    slideItem = pos;
+    var slidewidth = document.getElementById("slide-show").offsetWidth;
+    document.getElementsByClassName("slideshow-area")[0].style.marginLeft = "-" + (slidewidth * slideItem) + "px";
+}
