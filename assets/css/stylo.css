@@ -278,14 +278,39 @@ body{
     width: 430px;
     height: 420px;
     float: left;
-    background-color: #c0c0c0;
 }
+/*  */
 .noticia-2{
     width: 320px;
     height: 420px;
-    background-color: #02a783;
     float: right;
 }
+.item-noticia{
+    text-align: left;
+    height: 88px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.info-img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    padding: 3px;
+    float: left;
+}
+.info-texto{
+    width: 226px;
+    float: left;
+    font-size: 10pt;
+    margin-left: 6px;
+}
+.info-subtexto{
+    width: 226px;
+    margin-left: 6px;
+    float: left;
+    color: #cacaca;
+}
+/* // */
 .right-side{
     width: 275px;
     min-height: 200px;
