@@ -224,6 +224,7 @@ body{
     background-color: #00be95;
     overflow: hidden;/*faz com elementos que não sastifazem uma determinada condição fiquem oculto
     , por padrão ele esta como (auto), outra propriedade é (scroll) que criar uma barra de rolagem*/
+    margin-bottom: 20px;
 }
 .slideshow-area{
     width: 10000px;
@@ -273,6 +274,18 @@ body{
 }
 /*//slide show */
 
+.noticia-one{
+    width: 430px;
+    height: 420px;
+    float: left;
+    background-color: #c0c0c0;
+}
+.noticia-2{
+    width: 320px;
+    height: 420px;
+    background-color: #02a783;
+    float: right;
+}
 .right-side{
     width: 275px;
     min-height: 200px;
@@ -309,3 +322,4 @@ body{
     text-decoration: none;
     color: #000;
 }
+/*  */
