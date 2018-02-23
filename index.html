@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta id="viewpor" name="viewport" content="width=device-width, user-scalable=no"/>
         <link rel="stylesheet" href="assets/css/stylo.css"/>
+        <link rel="stylesheet" href="assets/css/mobile.css"/>
     </head>
     <body>
         <!-- topo -->
@@ -120,6 +121,12 @@
                 <!-- slide -->
                 <div class="left-side">
                     <div class="slideshow" id="slide-show">
+                        <div class="slide-indicador">
+                            <div class="indicador-item" onclick="passarSlide(0)"></div>
+                             <div class="indicador-item" onclick="passarSlide(1)"></div>
+                            <div class="indicador-item" onclick="passarSlide(2)"></div>
+                            <div class="indicador-item" onclick="passarSlide(3)"></div>
+                        </div>
                         <div class="slideshow-area">
                             <a href="#">
                             <div class="slide" style="background-image: url('assets/imagens/laptop.jpg');">
@@ -165,12 +172,7 @@
                             </div>
                             
                         </div>
-                        <div class="slide-indicador">
-                            <div class="indicador-item" onclick="passarSlide(0)"></div>
-                            <div class="indicador-item" onclick="passarSlide(1)"></div>
-                            <div class="indicador-item" onclick="passarSlide(2)"></div>
-                            <div class="indicador-item" onclick="passarSlide(3)"></div>
-                        </div>
+                        
                     </div>
                     <!-- noticias -->
                     <div class="widget">
