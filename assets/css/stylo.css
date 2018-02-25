@@ -130,6 +130,9 @@ body{
     height: 40px;   
     margin: auto;
 }
+.menu-hamburger{
+    display: none;
+}
 .menu ul, li{
     margin: 0;
     padding: 0;
@@ -141,6 +144,7 @@ body{
     padding-right: 10px;
     line-height: 40px;
 }
+
 .menu li:hover{
     background-color: #00be95;
     transition: background-color 1s;
@@ -168,11 +172,11 @@ body{
     padding-left: 10px;
     
 }
-.dropdown-item:hover{
-    background-color: #00be95;
-}
 .menu li:hover .dropdown{
     display: block;
+}
+.dropdown-item:hover{
+    background-color: #00be95;
 }
 /*//  */
 

@@ -21,3 +21,12 @@ function passarSlide(pos){
     var slidewidth = document.getElementById("slide-show").offsetWidth;
     document.getElementsByClassName("slideshow-area")[0].style.marginLeft = "-" + (slidewidth * slideItem) + "px";
 }
+//essa função está funcionando
+// function toggleMenu() {
+//     var click = document.getElementById("click-menu");
+//     if(click.style.display =="none" || click.style.display ==""){
+//         click.style.display = "block";
+//     }else{
+//         click.style.display = "none";
+//     }
+// }

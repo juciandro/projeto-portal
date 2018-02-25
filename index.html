@@ -6,6 +6,7 @@
         <meta id="viewpor" name="viewport" content="width=device-width, user-scalable=no"/>
         <link rel="stylesheet" href="assets/css/stylo.css"/>
         <link rel="stylesheet" href="assets/css/mobile.css"/>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     <body>
         <!-- topo -->
@@ -58,7 +59,8 @@
         <div class="topomenu">
             <div class="topomenuint">
                 <div class="menu">
-                    <ul>
+                    <img src="assets/imagens/menu-hamburger.png" class="menu-hamburger" border="0" width="40" height="40" id="hamburger"><!--onclick="toggleMenu()-->
+                    <ul id="click-menu">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Economia</a></li>
                         <li><a href="#">Entrenimento</a>
@@ -338,7 +340,11 @@
             </footer>
             <div class="copy">&copy; Copyright 2018</div>
         </div>
-        <script src="assets/js/main.js">
+        <script src="assets/js/main.js"></script>
+        <script>
+            $( "#hamburger" ).click(function() {
+            $( "#click-menu" ).slideToggle( "slow" );
+            });
         </script>
     </body>
 </html>
