@@ -94,9 +94,14 @@ body{
 .topoimg{
     width: 26px;
     height: 26px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: #02a783;
 }
-
+.topoimg img{
+    margin-top: 2px;
+    margin-left: 2px;
+}
 .topologo{
     height: 95px;    
 }
